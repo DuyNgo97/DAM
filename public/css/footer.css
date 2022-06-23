@@ -1,0 +1,109 @@
+footer{
+    padding-right: 30px;
+    padding-left: 30px;
+    box-sizing: border-box;
+    color: #000000;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient( rgb(217, 217, 217),rgb(81, 153, 256));
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+
+.fb-page{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.box-visa{
+    margin: 0 10%;
+    height: 150px;
+    width: 300px;
+    background-color: white;
+    position: relative;
+}
+
+.visa{
+    position: absolute;
+    height: 85%;
+    width: 85%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%
+    );
+}
+
+.master{
+    position: absolute;
+    height: 130%;
+    width: 85%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%
+    );
+}
+
+.box-lienhe{
+    margin-top: 3%;
+    height: 80%;
+    width: 25%;
+    /* background-color: rgba(245, 222, 179, 0.671); */
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+}
+
+.box-lienhe h1{
+    font-family: sans-serif;
+    text-align: center;
+    letter-spacing: 0.6;
+    margin-bottom: 20px;
+}
+
+.box-lienhe i{
+    transform: translateY(5px);
+    font-size: 50px;
+}
+
+.line-lienhe{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.line-lienhe a{
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.map{
+    margin-top: 20px;
+    /* margin-left: 20px; */
+    height: 300px;
+    width: 100%;
+    background-color: white;
+    margin-left: 15px;
+}
+
+.icon-thanhtoan{
+    margin-top: 20px;
+    margin-left: 18px;
+    width: 90%;
+    height: 25%;
+    transform: translateX(-10px);
+}
+
+.icon-thanhtoan img{
+    box-shadow: 0px 0px 10px white;
+}
+
+.icon-thanhtoan i{
+    margin-left: 30%;
+    font-size: 150px;
+}
